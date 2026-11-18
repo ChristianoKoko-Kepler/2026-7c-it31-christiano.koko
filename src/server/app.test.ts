@@ -6,7 +6,7 @@ describe('API', () => {
   const app = () =>
     createApp(
       createMemoryStore([
-        { id: 1, title: 'Test', category: 'A', note: '', done: false, createdAt: '2026-01-01T00:00:00.000Z' },
+        { id: 1, title: 'Test', category: 'A', note: '', rating: 3, done: false, createdAt: '2026-01-01T00:00:00.000Z' },
       ]),
     )
 
